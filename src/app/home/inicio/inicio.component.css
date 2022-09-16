@@ -1,0 +1,32 @@
+.inicio-background{
+    background-image: url('../../../assets/img/fime.png');
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 100vh;
+    position: fixed;
+}
+.text-color-black{
+    color: black;
+}
+.btn-FIMEprimary{
+    background: #475B35;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+}
+.body{
+    margin-left: 4%;
+    margin-top: 15%;
+}
+.body .body-title{
+    color: #475B35;
+}
+.body .body-text{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+}

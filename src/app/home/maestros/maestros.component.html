@@ -1,0 +1,27 @@
+<kendo-grid 
+    [kendoGridBinding]="gridView"
+    [pageSize]="10"
+    [pageable]="{
+    pageSizes: [10, 25, 50, 100]
+    }"
+    [sortable]="true"
+    [filterable]="true"
+    [resizable]="true"
+    [selectable]="true"
+    [navigable]="true"
+    kendoGridSelectBy="id"
+    style="width: 100%;"
+    [style]="{'text-align': 'left'}">
+    <kendo-grid-column field="nameMaestros" title="Nombre" [headerClass]="{'myClass': true}" [width]="120">
+    </kendo-grid-column>
+    <kendo-grid-column field="materias" title="Materias" [width]="120">
+    </kendo-grid-column>
+    <kendo-grid-column field="horarios" title="Horarios" [width]="120">
+    </kendo-grid-column>
+    <kendo-grid-column field="promedio" title="Promedio" [width]="120">
+    </kendo-grid-column>
+    <kendo-grid-column field="positive" title="Comentarios positivos" [width]="120">
+    </kendo-grid-column>
+    <kendo-grid-column field="negative" title="Comentarios negativos" [width]="120">
+    </kendo-grid-column>
+</kendo-grid>

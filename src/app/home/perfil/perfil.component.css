@@ -1,0 +1,19 @@
+.perfil-header{
+    text-align: center;
+    height: 300px;
+    padding: 12px;
+    background: rgb(2,0,36);
+    background: rgba(71,91,53,1);
+    color: white;
+}
+.perfil-foto{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+.perfil-username{
+    font-size: 18px;
+    margin-top: 14px;
+    color: white;
+}

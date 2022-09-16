@@ -1,0 +1,28 @@
+<div class="row w-100 mx-0">
+    <div class="col-12">
+      <div class="row justify-content-between navbar">
+        <div class="col-6">
+          <img class="img-background" src="../../assets/img/FIMEsores.png" alt="">
+        </div>
+        <div class="col-6 align-self-center">
+          <div class="row justify-content-end nav-background">
+            <div class="col-auto">
+              <a class="nav-a" [routerLink]="['/inicio']">Inicio</a>
+            </div>
+            <div class="col-auto">
+              <a class="nav-a" [routerLink]="['/maestros']">Maestros</a>
+            </div>
+            <div class="col-auto">
+              <a class="nav-a" [routerLink]="['/materias']">Materias</a>
+            </div>
+            <div class="col-auto">
+              <a class="nav-a" [routerLink]="['/perfil']">Perfil</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 px-0 container container-fluid">
+      <router-outlet></router-outlet>
+    </div>
+</div>

@@ -1,0 +1,21 @@
+.img-background{
+    width: 20%;
+    margin-left: 50px;
+}
+.nav-background{
+    margin-right: 50px;
+}
+.nav-a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.nav-a:hover{
+    color: #54b3d6;
+}
+
+.navbar{
+    background-color: #475B35;
+}

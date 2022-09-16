@@ -1,0 +1,19 @@
+<kendo-grid 
+    [kendoGridBinding]="gridView"
+    [pageSize]="10"
+    [pageable]="{pageSizes: [10, 25, 50, 100]}"
+    [sortable]="true"
+    [filterable]="true"
+    [resizable]="true"
+    [selectable]="true"
+    [navigable]="true"
+    kendoGridSelectBy="id"
+    style="width: 100%;"
+    [style]="{'text-align': 'left'}">
+    <kendo-grid-column field="nameMateria" title="Materia" [headerClass]="{'myClass': true}" [width]="120">
+    </kendo-grid-column>
+    <kendo-grid-column field="semestre" title="Semestre" [width]="120">
+    </kendo-grid-column>
+    <kendo-grid-column field="carrera" title="Carrera" [width]="120">
+    </kendo-grid-column>
+</kendo-grid>
